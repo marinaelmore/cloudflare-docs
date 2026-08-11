@@ -88,13 +88,15 @@ Use **Minimize Friction** on endpoints that should not require challenge-style s
 
 ## Relationship to JavaScript Detections
 
-Precursor supersedes JavaScript Detections (JSD):
+Precursor supersedes JavaScript Detections (JSD). If you enable Precursor, disable JSD on the zone to avoid running both features for the same traffic.
 
-- moves from one-time execution to continuous verification
-- introduces session-based state
-- enables dynamic runtime control
+JSD and Precursor both collect client-side signals, but Precursor evaluates them continuously across a session instead of as a one-time check.
 
-If you enable Precursor, you should disable JavaScript Detections (JSD).
+- Precursor moves from one-time execution to continuous verification
+- Precursor introduces session-based state
+- Precursor enables dynamic runtime control
+
+If you still have rules or workflows based on JSD, migrate them to Precursor before turning JSD off.
 
 ## Relationship to Challenge Pages
 
