@@ -98,6 +98,14 @@ JSD and Precursor both collect client-side signals, but Precursor evaluates them
 
 If you still have rules or workflows based on JSD, migrate them to Precursor before turning JSD off.
 
+### Bot score and action rules
+
+Cloudflare exposes the source as **JavaScript Fingerprinting** when JSD or Precursor contributes to bot score. The backend keeps JSD and Precursor decoupled, so if a customer switches from JSD to Precursor, any existing JSD-driven action rules continue to apply.
+
+Precursor is expected to have parity with JSD moving forward. If a customer enables Precursor and did not previously use JSD, they may see more traffic with bot score below 30.
+
+If a customer enables Precursor and sees false positives, recommend turning Precursor off and escalating to Engineering for investigation. Turning Precursor off should stop the false positives as part of remediation.
+
 ## Relationship to Challenge Pages
 
 Precursor and Challenges serve different roles:
