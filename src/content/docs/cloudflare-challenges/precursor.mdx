@@ -74,13 +74,13 @@ For browser XHR/fetch requests that must access endpoints under **Maximize Secur
 
 ```js
 fetch("/api/search", {
-  credentials: "include",
+	credentials: "include",
 });
 ```
 
 ```js
 axios.get("/api/search", {
-  withCredentials: true,
+	withCredentials: true,
 });
 ```
 
@@ -88,23 +88,21 @@ Use **Minimize Friction** on endpoints that should not require challenge-style s
 
 ## Relationship to JavaScript Detections
 
-Precursor supersedes JavaScript Detections (JSD). If you enable Precursor, disable JSD on the zone to avoid running both features for the same traffic.
-
-JSD and Precursor both collect client-side signals, but Precursor evaluates them continuously across a session instead of as a one-time check.
+Precursor supersedes JavaScript Detections (JSD). JSD and Precursor both collect client-side signals, but Precursor evaluates them continuously across a session instead of as a one-time check.
 
 - Precursor moves from one-time execution to continuous verification
 - Precursor introduces session-based state
 - Precursor enables dynamic runtime control
 
-If you still have rules or workflows based on JSD, migrate them to Precursor before turning JSD off.
+When either JSD or Precursor contributes to bot score, Cloudflare exposes the source as **JavaScript Fingerprinting**.
 
-### Bot score and action rules
+#### If you already use JSD
 
-Cloudflare exposes the source as **JavaScript Fingerprinting** when JSD or Precursor contributes to bot score. The backend keeps JSD and Precursor decoupled, so if a customer switches from JSD to Precursor, any existing JSD-driven action rules continue to apply.
+Disable JSD on the zone when you enable Precursor to avoid running both features on the same traffic. Precursor includes all detections previously covered by JSD, and any JSD-driven Security Rules will still apply.
 
-Precursor is expected to have parity with JSD moving forward. If a customer enables Precursor and did not previously use JSD, they may see more traffic with bot score below 30.
+#### If you do not use JSD
 
-If a customer enables Precursor and sees false positives, recommend turning Precursor off and escalating to Engineering for investigation. Turning Precursor off should stop the false positives as part of remediation.
+If you enable Precursor without previously using JSD, you may see more traffic with bot score below 30.
 
 ## Relationship to Challenge Pages
 
