@@ -1,0 +1,19 @@
+src/content/docs/bots/botbase.mdx
+  s_1306a3a921b4c8::t_1a1138aa6a7bcc 36-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b8563e537a2d7b0c7dfcd8b042ae893ca9d88942",
+  "prompts": {},
+  "sessions": {
+    "s_1306a3a921b4c8": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0747831aeffeeRBIfdBTLkuxgY",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "julianlaxman <jlaxman@cloudflare.com>"
+    }
+  }
+}
