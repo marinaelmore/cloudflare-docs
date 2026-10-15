@@ -1,0 +1,23 @@
+src/content/docs/cloudflare-challenges/concepts/clearance.mdx
+  s_b70782e201ab61::t_cf8fb91e167670 4,21-22,32,42,44,46,50,57,63,113
+src/content/docs/cloudflare-challenges/concepts/how-challenges-work.mdx
+  s_b70782e201ab61::t_b8d7b61185fe07 17,27
+src/content/docs/cloudflare-challenges/precursor.mdx
+  s_b70782e201ab61::t_03c53560bd203c 11-13,22,27-29,31-35,37,39,41-43,45-46,48,50-51,53,55,57,59,61,63,65,67,72,74-75,77,81,87,91,95,101-103,105,107,109,111,113,120,126,128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b0124c1f0733db34217e31909cf3b3197707bd98",
+  "prompts": {},
+  "sessions": {
+    "s_b70782e201ab61": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a140a5-d098-7700-b3f2-e0a5949cc9d8",
+        "model": "unknown"
+      },
+      "human_author": "Marina Elmore <6632380+marinaelmore@users.noreply.github.com>"
+    }
+  }
+}
