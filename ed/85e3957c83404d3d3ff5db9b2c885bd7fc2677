@@ -1,0 +1,19 @@
+src/content/changelog/bots/2026-10-19-precursor-monitor-mode.mdx
+  s_b70782e201ab61::t_79682deaee7eab 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ed85e3957c83404d3d3ff5db9b2c885bd7fc2677",
+  "prompts": {},
+  "sessions": {
+    "s_b70782e201ab61": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a140a5-d098-7700-b3f2-e0a5949cc9d8",
+        "model": "unknown"
+      },
+      "human_author": "Marina Elmore <6632380+marinaelmore@users.noreply.github.com>"
+    }
+  }
+}
