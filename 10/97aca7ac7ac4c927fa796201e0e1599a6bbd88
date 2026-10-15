@@ -1,0 +1,19 @@
+src/content/docs/cloudflare-challenges/precursor.mdx
+  s_b70782e201ab61::t_ff39be46043907 51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1097aca7ac7ac4c927fa796201e0e1599a6bbd88",
+  "prompts": {},
+  "sessions": {
+    "s_b70782e201ab61": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a140a5-d098-7700-b3f2-e0a5949cc9d8",
+        "model": "unknown"
+      },
+      "human_author": "Marina Elmore <6632380+marinaelmore@users.noreply.github.com>"
+    }
+  }
+}
