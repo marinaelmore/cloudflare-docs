@@ -1,0 +1,19 @@
+src/content/docs/bots/additional-configurations/block-ai-bots.mdx
+  s_69575092c4a907::t_9720f3ba5620c3 2,4,19,21,23,26,29,31,33,35-40,42,44,46,53,57,59,61,63,65,67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a473715339f36f5707f70db2a23ef31136acb5c6",
+  "prompts": {},
+  "sessions": {
+    "s_69575092c4a907": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17a43-beb1-7d63-9316-4c5b0efb2d9e",
+        "model": "unknown"
+      },
+      "human_author": "Marina Elmore <6632380+marinaelmore@users.noreply.github.com>"
+    }
+  }
+}
