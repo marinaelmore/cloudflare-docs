@@ -1,0 +1,19 @@
+src/content/changelog/bots/2026-10-30-personal-agent-policies.mdx
+  s_85ab69def59b50::t_e4b9fe495c2e4d 8,10-14,18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d33a6ffd48640164f4ffbc4e102ebd996d734bff",
+  "prompts": {},
+  "sessions": {
+    "s_85ab69def59b50": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17a05-9659-75f3-bad7-2baa1225e95a",
+        "model": "unknown"
+      },
+      "human_author": "Marina Elmore <6632380+marinaelmore@users.noreply.github.com>"
+    }
+  }
+}
