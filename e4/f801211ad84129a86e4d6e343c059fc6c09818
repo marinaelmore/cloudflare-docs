@@ -1,0 +1,21 @@
+src/content/docs/bots/additional-configurations/managed-robots-txt.mdx
+  s_85ab69def59b50::t_31daa5dd705870 23,129,145
+src/content/docs/bots/concepts/bot/verified-bots/index.mdx
+  s_85ab69def59b50::t_804ddc8166a247 278
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e4f801211ad84129a86e4d6e343c059fc6c09818",
+  "prompts": {},
+  "sessions": {
+    "s_85ab69def59b50": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17a05-9659-75f3-bad7-2baa1225e95a",
+        "model": "unknown"
+      },
+      "human_author": "Marina Elmore <6632380+marinaelmore@users.noreply.github.com>"
+    }
+  }
+}
